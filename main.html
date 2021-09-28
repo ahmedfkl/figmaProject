@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>figmaProject</title>
+    <link rel="stylesheet" href="css/customCss.css">
+    <link rel="icon" href="images/logo-main.png">
+</head>
+
+<body>
+    <section id="header">
+        <div class="navbar">
+            <div class="burger">
+                <div class="burger-line-1"></div>
+                <div class="burger-line-2"></div>
+                <div class="burger-line-3"></div>
+            </div>
+            <div class="burger-holder"></div>
+            <img class="logo" src="images/logo.svg" alt="">
+            <ul class="nav-links">
+                <li>
+                    <a href="#!">
+                        <p>about</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#!">
+                        <p>product</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#!">
+                        <p>pricing</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#!">
+                        <p>resources</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#!">
+                        <p>customer</p>
+                    </a>
+                </li>
+            </ul>
+            <ul class="sign-trail">
+                <li class="login"><a href="#!">login</a></li>
+                <li class="free-trail-bg"><a href="#!">start free trail</a></li>
+            </ul>
+        </div>
+        <div class="mid-header">
+            <p class="main-title">
+                Powerfull analytics tools for your business
+            </p>
+            <p class="main-content">
+                An awesome tools for your business, increase business revenue with enterprise-grade links built to acquire and engage cutomers
+            </p>
+            <ul class="main-btns">
+                <a href="#!" class="dark-btn">
+                    <li class="trial-btn">Start free trial</li>
+                </a>
+                <a href="#!" class="light-btn">
+                    <li class="v-demo">View live demo</li>
+                </a>
+            </ul>
+        </div>
+        <div class="dashboard">
+            <div class="dash-header">
+                <div class="dash-start">
+                    <h3>Data Analytic</h3>
+                    <p>See insight on how your business has changed over time</p>
+                </div>
+                <div class="dash-end">
+                    <select name="dashboard-dp" id="dash-drpdwn">
+                            <option value="1">Impressions</option>
+                            <option value="2">Reach</option>
+                        </select>
+                    <!---
+                        <div class="dash-dp-content">
+                            Impressions
+                        </div>
+                        <img src="images/chevron-down.png" alt="">
+                    -->
+                    <!--
+                    <ul class="dash-dropdown-menu">
+                        <li><span class="blue-dot-dropdown"></span><a href="#!">Impressions</a></li>
+                        <li><span class="yellow-dot-dropdown"></span><a href="#!">Reach</a></li>
+                    </ul>
+                    -->
+                </div>
+            </div>
+            <div class="dash-datas">
+                <div class="left-data">
+                    <div class="movement-percentage">
+                        <img src="images/Chevron-up.png" alt="">
+                        <p id="movement-val-id" class="dash-data-value">86.5%</p>
+                    </div>
+                    <p class="dash-data-expl">from prev. moth</p>
+                </div>
+                <div class="right-data">
+                    <div class="impress">
+                        <p class="dash-data-value">2.465</p>
+                        <p class="dash-data-expl">Impressions</p>
+                    </div>
+                    <div class="reach">
+                        <p class="dash-data-value">1.283</p>
+                        <p class="dash-data-expl">Reach</p>
+                    </div>
+                    <div class="growth-percentage">
+                        <p class="dash-data-value">2.34%</p>
+                        <p class="dash-data-expl">Growth</p>
+                    </div>
+                </div>
+            </div>
+            <div class="chart">
+                <div class="measure">
+                    <div class="measure-line">
+                        <p class="measure-value">
+                            1000
+                        </p>
+                        <hr>
+                    </div>
+                    <div class="measure-line">
+                        <p class="measure-value">
+                            750
+                        </p>
+                        <hr>
+                    </div>
+                    <div class="measure-line">
+                        <p class="measure-value">
+                            500
+                        </p>
+                        <hr>
+                    </div>
+                    <div class="measure-line">
+                        <p class="measure-value">
+                            250
+                        </p>
+                        <hr>
+                    </div>
+                    <div class="measure-line">
+                        <p class="measure-value">
+                            0
+                        </p>
+                        <hr>
+                    </div>
+                </div>
+                <div class="dash-data-summary">
+                    <p class="dash-date">Aug 22, 2019</p>
+                    <div class="short-data-wrap">
+                        <span class="blue-dot"></span>
+                        <div class="engagement">
+                            <h1>2.456</h1>
+                            <p>Engagement</p>
+                        </div>
+                    </div>
+                    <div class="short-data-wrap">
+                        <span class="yellow-dot"></span>
+                        <div class="reach">
+                            <p class="reach-data">1,115</p>
+                            <p class="reach-title">Reach</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="chart-columns">
+                    <div id="column-1" class="column-group">
+                        <div class="yellow-column"></div>
+                        <div class="blue-column"></div>
+                    </div>
+                    <div id="column-2" class="column-group">
+                        <div class="yellow-column"></div>
+                        <div class="blue-column"></div>
+                    </div>
+                    <div id="column-3" class="column-group">
+                        <div class="yellow-column"></div>
+                        <div class="blue-column"></div>
+                    </div>
+                    <div id="column-4" class="column-group">
+                        <div class="yellow-column"></div>
+                        <div class="blue-column"></div>
+                    </div>
+                    <div id="column-5" class="column-group">
+                        <div class="yellow-column"></div>
+                        <div class="blue-column"></div>
+                    </div>
+                    <div id="column-6" class="column-group">
+                        <div class="yellow-column"></div>
+                        <div class="blue-column"></div>
+                    </div>
+                    <div id="column-7" class="column-group">
+                        <div class="yellow-column"></div>
+                        <div class="blue-column"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="features">
+        <p class="little-section-title">
+            Features
+        </p>
+        <div class="feat-main-container">
+            <h1 class="section-main-title">
+                Our solution for your business
+            </h1>
+            <p class="feat-explanation">
+                We are self-service data analytics software that lets you create visually appealing data visualizations and insightful dashboards in minutes.
+            </p>
+            <div class="feat-promo">
+                <span class="promo-icon-bg-yellow">
+                    <img src="images/pie-chart-icon.png" alt="">
+                </span>
+                <div class="feat-promo-expl">
+                    <h3>Analyze your data</h3>
+                    <p>Create reports with an easy to use drag-and-drop designer.</p>
+                    <a class="quick-link" href="#!">Learn More ></a>
+                </div>
+            </div>
+            <div class="feat-promo">
+                <span class="promo-icon-bg-yellow">
+                    <img src="images/shield-icon.png" alt="">
+                </span>
+                <div class="feat-promo-expl">
+                    <h3>Collaborate securely</h3>
+                    <p>Share/publish your reports with your colleagues.</p>
+                    <a class="quick-link" href="#!">Learn More ></a>
+                </div>
+            </div>
+            <div class="feat-promo">
+                <span class="promo-icon-bg-blue">
+                    <img src="images/line-chart.png" alt="">
+                </span>
+                <div class="feat-promo-expl">
+                    <h3>Embedded analytics</h3>
+                    <p>Get a powerful analytics tool in your own brand name.</p>
+                    <a class="quick-link" href="#!">Learn More ></a>
+                </div>
+            </div>
+            <div class="feat-promo">
+                <span class="promo-icon-bg-blue">
+                    <img src="images/hand-cursor.png" alt="">
+                </span>
+                <div class="feat-promo-expl">
+                    <h3>Analyze your data</h3>
+                    <p>Easily converse with your data using everyday language.</p>
+                    <a class="quick-link" href="#!">Learn More ></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="analyze">
+        <div class="wheel-chart">
+            <div class="circle">
+                <div class="quarter yellow"></div>
+                <div class="quarter orange"></div>
+                <div class="cut"></div>
+            </div>
+        </div>
+        <div class="analyze-content">
+            <p id="analyze-little" class="little-section-title">
+                Analyze
+            </p>
+            <h1 class="section-main-title">Analyze your data with our analyze tools</h1>
+            <p class="section-main-paragaph">Self-service data analytics software that lets you create visually appealing data visualizations and insightful dashboards in minutes.</p>
+            <div class="analyze-list-content">
+                <div class="analyze-list-item">
+                    <img class="analyze-list-icon" src="images/layers.png" alt="">
+                    <div class="list-content">
+                        <h4 class="lower-title">Powerful dashboard</h4>
+                        <p>Combine multiple reports into a single beautiful dashboard.</p>
+                    </div>
+                </div>
+                <div class="analyze-list-item">
+                    <img class="analyze-list-icon" src="images/sync.png" alt="">
+                    <div class="list-content">
+                        <h4 class="lower-title">Always in Sync</h4>
+                        <p>Don’t worry about the data, always be synchronized</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="detailed-features">
+        <p class="little-section-title">More Features</p>
+        <h1 class="section-main-title">We're more than an analytic tool. Explore our features, and satisfy your customers</h1>
+        <div class="list-details">
+            <div class="list-details-item">
+                <div class="list-icon">
+                    <span class="icon-circle-blue">
+                        <img src="images/magic-stick.png" alt="">
+                    </span>
+                </div>
+                <h5>Easy customization</h5>
+                <p>No matter what kind of home you have to share, you can increase your earnings.</p>
+            </div>
+            <div class="list-details-item">
+                <div class="list-icon">
+                    <span class="icon-circle-blue">
+                        <img src="images/png-shiled.png" alt="">
+                    </span>
+                </div>
+                <h5>Secure and fast</h5>
+                <p>No matter what kind of home you have to share, you can increase your earnings.</p>
+            </div>
+            <div class="list-details-item">
+                <div class="list-icon">
+                    <span class="icon-circle-blue">
+                        <img src="images/compass.png" alt="">
+                    </span>
+                </div>
+                <h5>Powerful dashboard</h5>
+                <p>No matter what kind of home you have to share, you can increase your earnings.</p>
+            </div>
+            <div class="list-details-item">
+                <div class="list-icon">
+                    <span class="icon-circle-yellow">
+                        <img src="images/upload-cloud.png" alt="">
+                    </span>
+                </div>
+                <h5>Cloud upload</h5>
+                <p>No matter what kind of home you have to share, you can increase your earnings.</p>
+            </div>
+            <div class="list-details-item">
+                <div class="list-icon">
+                    <span class="icon-circle-yellow">
+                        <img src="images/atom.png" alt="">
+                    </span>
+                </div>
+                <h5>Proven Technology</h5>
+                <p>No matter what kind of home you have to share, you can increase your earnings.</p>
+            </div>
+            <div class="list-details-item">
+                <div class="list-icon">
+                    <span class="icon-circle-yellow">
+                        <img src="images/liked.png" alt="">
+                    </span>
+                </div>
+                <h5>98.99% satisfaction</h5>
+                <p>No matter what kind of home you have to share, you can increase your earnings.</p>
+            </div>
+        </div>
+    </section>
+    <section id="collaborate">
+        <div class="collabrate-graphic">
+            <img src="images/collaboarate-graphic.png" alt="">
+        </div>
+        <div class="collaborate-content">
+            <p class="little-section-title">Collaborate</p>
+            <h1 class="section-main-title">Collaborate with your team anytime, anywhere</h1>
+            <p class="section-main-paragaph">
+                Self-service data analytics software that lets you create visually appealing data visualizations and insightful dashboards in minutes.
+            </p>
+            <div class="collabrate-lower-title-list">
+                <div class="collabrate-lower-title-list-item">
+                    <img src="images/green-tic.png" alt="">
+                    <h4 class="lower-title">Organize your data</h4>
+                </div>
+                <div class="collabrate-lower-title-list-item">
+                    <img src="images/green-tic.png" alt="">
+                    <h4 class="lower-title">Always in sync</h4>
+                </div>
+                <div class="collabrate-lower-title-list-item">
+                    <img src="images/green-tic.png" alt="">
+                    <h4 class="lower-title">Work with any team</h4>
+                </div>
+                <div class="collabrate-lower-title-list-item">
+                    <img src="images/green-tic.png" alt="">
+                    <h4 class="lower-title">Business analytics</h4>
+                </div>
+                <div class="collabrate-lower-title-list-item">
+                    <img src="images/green-tic.png" alt="">
+                    <h4 class="lower-title">Embedded analytics</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="sponsorship">
+        <h3 class="soft-title">More than 1.8 million people across 50,000 companies choose Oval</h3>
+        <div class="sponsored-brands">
+            <img src="images/brand1.png" alt="">
+            <img src="images/brand2.png" alt="">
+            <img src="images/brand3.png" alt="">
+            <img src="images/brand4.png" alt="">
+            <img src="images/brand5.png" alt="">
+            <img src="images/brand6.png" alt="">
+        </div>
+        <div class="sponsore-observe">
+            <div class="observe-card">
+                <img src="images/shopify.svg" alt="">
+                <p class="sponsore-experience">I received great customer service from the specialists who helped me. I would recommend to anyone who wants great dashboard that has great quality.</p>
+                <div class="sponsored-person">
+                    <img src="images/sponsored-person1.png" alt="">
+                    <div class="sponsored-person-info">
+                        <p class="sponsored-person-name">Harold Tyler</p>
+                        <p class="sponsored-person-job">Product Designer</p>
+                    </div>
+                </div>
+            </div>
+            <div class="observe-card">
+                <img src="images/airbnb.png" alt="">
+                <p class="sponsore-experience">My experience with this platform so far has been great. Everything is easy, from creating visualization, scheduling, collaboration and many more.</p>
+                <div class="sponsored-person">
+                    <img src="images/sponsored-person2.png" alt="">
+                    <div class="sponsored-person-info">
+                        <p class="sponsored-person-name">Ryan Holmes</p>
+                        <p class="sponsored-person-job">Motion design / animator</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="quick-link" href="#!">See All Testmonial ></a>
+    </section>
+    <section id="payment-plan">
+        <h1 class="section-main-title">Choose the plan that’s right for your business</h1>
+        <h3 class="soft-title">30-day free trial, cancel any time. No credit card required.</h3>
+        <div class="per-payment-plan">
+            <p class="bill-plan">Bill Monhtly</p>
+            <label class="switch">
+                <input id="payment-cycle" type="checkbox">
+                <span class="slider round"></span>
+            </label>
+            <p class="bill-plan">Bill Annually</p>
+            <p class="discount">Save 15%</p>
+        </div>
+        <div class="subs-league">
+            <div class="subs-card standard">
+                <div class="subs-container">
+                    <div class="price">
+                        <p class="number">$23</p>
+                        <p class="per-to-pay">/month</p>
+                    </div>
+                    <h3 class="subs-type">Standard</h3>
+                    <p class="small-explain">All the basics for businesses that are just getting started.</p>
+                    <hr>
+                    <div class="subs-adventage-list">
+                        <div class="subs-adventage-item">
+                            <img src="images/green-tic.png" alt="">
+                            <p>Single project use</p>
+                        </div>
+                        <div class="subs-adventage-item">
+                            <img src="images/green-tic.png" alt="">
+                            <p>Basic dashboard</p>
+                        </div>
+                        <div class="subs-adventage-item">
+                            <img src="images/green-tic.png" alt="">
+                            <p>All components included</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="free-trial-btn">Start free trial</button>
+            </div>
+            <div class="subs-card essantials">
+                <div class="subs-container">
+                    <div class="price">
+                        <p class="number">$99</p>
+                        <p class="per-to-pay">/month</p>
+                    </div>
+                    <h3 class="subs-type">Essantials</h3>
+                    <p class="small-explain">All the basics for businesses that are just getting started.</p>
+                    <hr>
+                    <div class="subs-adventage-list">
+                        <div class="subs-adventage-item">
+                            <img src="images/green-tic.png" alt="">
+                            <p>Single project use</p>
+                        </div>
+                        <div class="subs-adventage-item">
+                            <img src="images/green-tic.png" alt="">
+                            <p>Basic dashboard</p>
+                        </div>
+                        <div class="subs-adventage-item">
+                            <img src="images/green-tic.png" alt="">
+                            <p>All components included</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="free-trial-btn">Start free trial</button>
+            </div>
+            <div class="subs-card premium">
+                <div class="subs-container">
+                    <div class="price">
+                        <p class="number">$139</p>
+                        <p class="per-to-pay">/month</p>
+                    </div>
+                    <h3 class="subs-type">Premium</h3>
+                    <p class="small-explain">All the basics for businesses that are just getting started.</p>
+                    <hr>
+                    <div class="subs-adventage-list">
+                        <div class="subs-adventage-item">
+                            <img src="images/green-tic.png" alt="">
+                            <p>Single project use</p>
+                        </div>
+                        <div class="subs-adventage-item">
+                            <img src="images/green-tic.png" alt="">
+                            <p>Basic dashboard</p>
+                        </div>
+                        <div class="subs-adventage-item">
+                            <img src="images/green-tic.png" alt="">
+                            <p>All components included</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="free-trial-btn">Start free trial</button>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-left">
+            <div class="logo-social">
+                <img class="footer-logo" src="images/logo.png" alt="">
+                <div class="social-media">
+                    <a href="#!"><img src="images/Facebook.png" alt=""></a>
+                    <a href="#!"><img src="images/Linkedin.png" alt=""></a>
+                    <a href="#!"><img src="images/Twitter.png" alt=""></a>
+                </div>
+            </div>
+            <p class="copyright">© 2021 Privia</p>
+        </div>
+        <div class="footer-right">
+            <div class="single-list">
+                <h4 class="list-header">Product</h4>
+                <ul class="small-explain">
+                    <li>
+                        <a href="#!">Landingpage</a>
+                    </li>
+                    <li>
+                        <a href="#!">Features</a>
+                    </li>
+                    <li>
+                        <a href="#!">Documention</a>
+                    </li>
+                    <li>
+                        <a href="#!">Refferal Program</a>
+                    </li>
+                    <li>
+                        <a href="#!">Pricing</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="single-list">
+                <h4 class="list-header">Services</h4>
+                <ul class="small-explain">
+                    <li>
+                        <a href="#!">Documention</a>
+                    </li>
+                    <li>
+                        <a href="#!">Design</a>
+                    </li>
+                    <li>
+                        <a href="#!">Themes</a>
+                    </li>
+                    <li>
+                        <a href="#!">Illustrations</a>
+                    </li>
+
+                    <li>
+                        <a href="#!">UI Kit</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="single-list">
+                <h4 class="list-header">Company</h4>
+                <ul class="small-explain">
+                    <li>
+                        <a href="#!">About</a>
+                    </li>
+                    <li>
+                        <a href="#!">Terms</a>
+                    </li>
+                    <li>
+                        <a href="#!">Privacy Policy</a>
+                    </li>
+                    <li>
+                        <a href="#!">Careers</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="single-list">
+                <h4 class="list-header">More</h4>
+                <ul class="small-explain">
+                    <li>
+                        <a href="#!">Documention</a>
+                    </li>
+                    <li>
+                        <a href="#!">License</a>
+                    </li>
+                    <li>
+                        <a href="#!">Changelog</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+    <script src="javascript/customjs.js"></script>
+</body>
+
+
+</html>
