@@ -253,12 +253,17 @@
         </div>
     </section>
     <section id="analyze">
+        <!--
         <div class="wheel-chart">
             <div class="circle">
                 <div class="quarter yellow"></div>
                 <div class="quarter orange"></div>
                 <div class="cut"></div>
             </div>
+        </div>
+        -->
+        <div class="doughnut-chart">
+            <canvas id="chart-doughnut"></canvas>
         </div>
         <div class="analyze-content">
             <p id="analyze-little" class="little-section-title">
@@ -594,6 +599,7 @@
             </div>
         </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
     <script src="javascript/customjs.js"></script>
 </body>

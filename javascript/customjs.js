@@ -35,3 +35,37 @@ $("#payment-cycle").change(function() {
         /****PREMIUM****/
     }
 });
+
+
+/**********DOUGHNUT CHART**********/
+const ctx = document.getElementById('chart-doughnut');
+
+new Chart(ctx, {
+    type: 'doughnut',
+    data: {
+        labels: [
+            'Red',
+            'Blue'
+        ],
+        datasets: [{
+            label: 'My First Dataset',
+            label: 'My Second Dataset',
+            data: [300, 100],
+            backgroundColor: [
+                'rgb(255, 99, 132)',
+                'rgb(54, 162, 235)',
+
+            ],
+            hoverOffset: 4
+        }]
+    },
+
+    options: {
+        scales: {
+            y: {
+                beginAtZero: true
+            }
+        }
+    }
+});
+/**********DOUGHNUT CHART**********/
